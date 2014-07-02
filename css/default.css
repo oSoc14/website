@@ -139,6 +139,22 @@ h2 {
     width: 100%;
     height: 100%; }
 
+.projects {
+  background: #FFF !important; }
+  .projects .project img {
+    padding-left: 15px;
+    padding-top: 25px;
+    max-width: 150px; }
+  .projects .project h3 {
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: 700; }
+  .projects .project p.sponsor {
+    font-style: italic; }
+  .projects .project p {
+    line-height: 1.5em;
+    font-size: 1.2em; }
+
 .location {
   padding-bottom: 45px;
   background: url("assets/hero-location.jpg");
