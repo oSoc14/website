@@ -28,6 +28,21 @@ html{
   background-color: #444;
 }
 
+.btn-primary {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: #23998d;
+    padding: 10px 15px;
+    color: #FFF;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
 a{
   color: #23998d;
 }
@@ -185,6 +200,7 @@ h2{
       text-align: left;
       font-size: 1.3em;
       font-weight: 700;
+      text-transform: none;
     }
     p.sponsor{
       font-style:italic;
@@ -193,6 +209,13 @@ h2{
       line-height: 1.5em;
       font-size: 1.2em;
     }
+  }
+  .text-center {
+    padding-bottom: 50px;
+  }
+  .btn-primary {
+    text-align: center;
+    margin: 10px auto;
   }
 }
 
@@ -229,7 +252,8 @@ h2{
     margin-right: auto;
     text-align: center;
     .date, .city, .place{
-      line-height: 0.7em;
+      line-height: 1em;
+      height: 20px;
     }
     .kortrijk{
       color: #33ef90;
@@ -239,6 +263,9 @@ h2{
     }
     .ghent{
       color: #ecea4f;
+    }
+    .hasselt {
+      color: #d43959;
     }
     .date{
       text-transform: uppercase;
